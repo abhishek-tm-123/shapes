@@ -1,0 +1,78 @@
+#api call for finding square area
+###
+POST http://127.0.0.1:8000/square/
+Content-Type: application/json
+
+{
+    "side":12
+}
+
+#api call for rectangle area
+###
+POST http://127.0.0.1:8000/rectangle/
+Content-Type: application/json
+
+{
+    "length":10,
+    "width":5
+}
+
+#api call for triangle area
+###
+POST http://127.0.0.1:8000/triangle/
+Content-Type: application/json
+
+{
+    "base":10,
+    "height":5
+}
+
+#api call fro circle area
+###
+POST http://127.0.0.1:8000/circle/
+Content-Type: application/json
+
+{
+    "radius":10
+}
+
+#api call for parallelogram
+###
+POST http://127.0.0.1:8000/parallelogram/
+Content-Type: application/json
+
+{
+    "base":10,
+    "height":5
+}
+
+#api call for trapezium
+###
+POST http://127.0.0.1:8000/trapezium/
+Content-Type: application/json
+
+{
+    "a":10,
+    "b":10,
+    "height":5
+}
+
+#api call for rhombus
+###
+POST http://127.0.0.1:8000/rhombus/
+Content-Type: application/json
+
+{
+    "base":10,
+    "height":5
+}
+
+#api call for Ellipse
+###
+POST http://127.0.0.1:8000/ellipse/
+Content-Type: application/json
+
+{
+    "a":10,
+    "b":5
+}
